@@ -5,7 +5,7 @@ def main():
     tv1.turn_on()
     tv1.set_volume(3)
     tv1.set_channel(30)
-
 #print the result of tv1
+    print(f"tv1's channel is {tv1.get_channel()} and volume level is {tv1.get_volume()}")
 #creating a code for the result for tv2
 #print the result of tv2
