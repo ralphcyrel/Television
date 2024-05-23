@@ -8,8 +8,11 @@ class TV:
         self.channel = 1
         self.volume_level = 1
         self.on = False
-
 #creating a method for turn on and off
+    def turn_on(self):
+        self.on = True
+    def turn_off(self):
+        self.on = False
 #creating a method for volume
 #creating a method for volume (1-7 limit)
 #creating a method for increasing the volume
