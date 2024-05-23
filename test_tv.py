@@ -34,6 +34,9 @@ class TV:
 #creating a method for channel (1-120 limit)
     def set_channel(self, channel_level):
         if 1 <= channel_level <= 120:
-            self.channel = channel_level   
+            self.channel = channel_level
 #creating a method for increasing the channel
+    def channel_up(self):
+        if self.on and self.channel < 120:
+            self.channel += 1
 #creating a method for decreasing the channel
