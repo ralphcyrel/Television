@@ -13,3 +13,5 @@ def main():
     tv2.set_volume(2)
     tv2.set_channel(3)
 #print the result of tv2
+    print(f"tv2's channel is {tv2.get_channel()} and volume level is {tv2.get_volume()}")
+main()
