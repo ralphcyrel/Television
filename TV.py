@@ -8,4 +8,8 @@ def main():
 #print the result of tv1
     print(f"tv1's channel is {tv1.get_channel()} and volume level is {tv1.get_volume()}")
 #creating a code for the result for tv2
+    tv2 = TV()
+    tv2.turn_on()
+    tv2.set_volume(2)
+    tv2.set_channel(3)
 #print the result of tv2
