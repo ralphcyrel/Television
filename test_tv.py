@@ -29,6 +29,8 @@ class TV:
         if self.on and self.volume_level > 1:
             self.volume_level -= 1
 #creating a method for channel
+    def get_channel(self):
+        return self.channel
 #creating a method for channel (1-120 limit)
 #creating a method for increasing the channel
 #creating a method for decreasing the channel
