@@ -14,7 +14,7 @@ class TV:
     def turn_off(self):
         self.on = False
 #creating a method for volume
-    def set_volume(self):
+    def get_volume(self):
         return self.volume_level
 #creating a method for volume (1-7 limit)
 #creating a method for increasing the volume
