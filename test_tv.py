@@ -22,7 +22,8 @@ class TV:
             self.volume_level = volume_level
 #creating a method for increasing the volume
     def volume_up(self):
-        self.volume_level += 1
+        if self.on and self.volume_level < 7:
+            self.volume_level += 1
 #creating a method for decreasing the volume
 #creating a method for channel
 #creating a method for channel (1-120 limit)
